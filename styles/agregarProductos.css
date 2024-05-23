@@ -1,0 +1,102 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #1275d7;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header__logo {
+    max-width: 150px;
+    height: auto;
+}
+
+.nav__menu {
+    
+    list-style: none;
+}
+
+
+
+.nav__item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav__item a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav__item a:hover {
+    color: #ffc107;
+}
+
+.formulario {
+    padding: 50px 0;
+}
+
+.formulario__titulo {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.formulario__campo {
+    margin-bottom: 20px;
+}
+
+.formulario__campo label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.formulario__campo input,
+.formulario__campo textarea,
+.formulario__campo select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.formulario__campo textarea {
+    min-height: 100px;
+}
+
+.formulario__campo input[type="file"] {
+    padding: 7px 0;
+}
+
+.formulario__campo button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulario__campo button:hover {
+    background-color: #0056b3;
+}

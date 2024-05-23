@@ -1,0 +1,32 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "name": "Producto 1",
+      "price": 10.99,
+      "description": "Descripción del Producto 1",
+      "image": "url_de_la_imagen_1"
+    },
+    {
+      "id": "2",
+      "name": "Producto 2",
+      "price": 19.99,
+      "description": "Descripción del Producto 2",
+      "image": "url_de_la_imagen_2"
+    },
+    {
+      "id": "3",
+      "name": "Producto 3",
+      "price": 5.99,
+      "description": "Descripción del Producto 3",
+      "image": "url_de_la_imagen_3"
+    },
+    {
+      "id": "201a",
+      "name": "Gato",
+      "price": "200",
+      "descripcion": "dr",
+      "image": "C:\\fakepath\\IMG-20230220-WA0007.jpg"
+    }
+  ]
+}

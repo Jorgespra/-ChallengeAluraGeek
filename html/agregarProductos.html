@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Productos - Alura Geek</title>
+    <link rel="stylesheet" href="../main.css"> 
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <img class="header__logo" src="../imagenes/LogoAluraGeek.png" alt="SpaceApp">
+            <nav class="nav">
+                <ul class="nav__menu">
+                    <li class="nav__item"><a href="../index.html">Inicio</a></li>
+                    <li class="nav__item"><a href="../index.html#galeria">Galeria</a></li>
+                    <li class="nav__item"><a href="/html/agregarProductos.html">Agregar productos</a></li>
+                    <li class="nav__item"><a href="../index.html#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="formulario">
+        <div class="products-container" data-product>
+            <div class="card">
+            <h1 class="formulario__titulo">Agregar productos</h1>
+            <form id="crearProductoForm" class="formulario__agregar-productos" data-formulario>
+                <div class="formulario__campo">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" data-name>
+                </div>
+                <div class="formulario__campo">
+                    <label for="descripcion">Descripción:</label>
+                    <textarea id="descripcion" data-descripcion></textarea>
+                </div>
+                <div class="formulario__campo">
+                    <label for="precio">Precio:</label>
+                    <input type="number" id="precio" data-price>
+                </div>
+                <div class="formulario__campo">
+                    <label for="imagen">Imagen:</label>
+                    <input type="file" id="imagen" data-image>
+                </div>
+                <button type="submit" class="formulario__boton">Crear Producto</button>
+            </form>
+        </div>
+        </div>
+    </section>
+
+    <script src="../js/controllers/main.js" type="module"></script>
+
+</body>
+</html>

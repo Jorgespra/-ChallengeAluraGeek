@@ -1,0 +1,237 @@
+.banner{
+    display: flex;
+    font-size: xx-large;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+
+
+.galeria{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 10px 50px;
+    
+}
+
+
+
+
+.productos_galeria{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap: 110px 40px;
+    padding-top: 45px;
+    padding-bottom: 100px;
+}
+    
+.productos_galeria__box{
+    display: flex;
+    position: relative;
+    width: 350px;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fffceb;
+    border-style: solid;
+    border-color: hsl(0, 0%, 0%);
+    border-radius: 8px;
+    border-width: 2px;
+      
+}
+
+.productos_galeria__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.productos_galeria__item__img{
+    display: flex;
+    justify-content: center;
+    counter-reset: none;
+    align-items: center;   
+}
+
+
+.productos_galeria__item__img__size{
+    display: flex;
+    width: 300px;
+}
+
+.productos_galeria__item__nombre{
+    display: flex;
+    position: absolute;
+    top: 29rem;
+    left: 0px;
+    font-size: x-large;
+    font-weight: bold;
+   
+}
+
+.productos_galeria__item__precio{
+    display: flex;
+    position: absolute;
+    top: 31rem;
+    left: 0px;
+    
+}
+
+/* Tamaño PC */
+
+@media (min-width:1020px){
+    .academic{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 100%;
+     
+        background-color: rgb(172, 172, 172);
+     
+    }
+
+    .academic__courses__box{
+        display: flex;
+        position: relative;
+        width: 380px;
+        height: 350px;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff;
+        border-style: solid;
+        border-color: hsl(0, 0%, 0%);
+        border-radius: 8px;
+          
+    }
+
+    .academic__courses__item__img{
+        display: flex;
+        position: relative;
+        
+        
+       
+    }
+
+}
+
+
+
+
+/* Tamaño tablet */
+
+@media (min-width:685px){
+    .academic{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 95%;
+     
+        background-color: rgb(172, 172, 172);
+     
+    }
+
+    .academic__courses__box{
+        display: flex;
+        position: relative;
+        width: 380px;
+        height: 350px;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff;
+        border-style: solid;
+        border-color: hsl(0, 0%, 0%);
+        border-radius: 8px;
+          
+    }
+
+    .academic__courses__item__img{
+        display: flex;
+        position: relative;
+        
+        
+       
+    }
+
+    .academic__courses__item__title{
+    display: flex;
+    position: absolute;
+    top: 22.5rem;
+    left: 0px;
+    font-size: large;
+   
+}
+
+.academic__courses__item__subtitle{
+    display: flex;
+    position: absolute;
+    top: 24rem;
+    left: 0px;
+    
+}
+
+
+
+}
+
+/* Tamaño PC */
+
+@media (min-width:1020px){
+    .academic{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 93%;
+     
+        background-color: rgb(172, 172, 172);
+     
+    }
+
+    .academic__courses__box{
+        display: flex;
+        position: relative;
+        width: 380px;
+        height: 350px;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff;
+        border-style: solid;
+        border-color: hsl(0, 0%, 0%);
+        border-radius: 8px;
+          
+    }
+
+    .academic__courses__item__img{
+        display: flex;
+        position: relative;
+        
+        
+       
+    }
+
+    .academic__courses__item__title{
+        display: flex;
+        position: absolute;
+        top: 22.5rem;
+        left: 0px;
+        font-size: large;
+       
+    }
+    
+    .academic__courses__item__subtitle{
+        display: flex;
+        position: absolute;
+        top: 24rem;
+        left: 0px;
+        
+    }
+
+}
+
+
+

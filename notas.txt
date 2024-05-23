@@ -1,0 +1,3 @@
+npm run start,  para iniciar el servidor
+
+ "start": "nodemon app.js",

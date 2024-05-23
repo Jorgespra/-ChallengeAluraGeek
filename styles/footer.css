@@ -1,0 +1,11 @@
+.footer__rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 25px;
+    line-height: 35px;
+    font-size: 20px;
+
+
+    
+}

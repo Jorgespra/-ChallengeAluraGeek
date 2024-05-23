@@ -1,0 +1,30 @@
+.redes_sociales{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo_redes_sociales{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 18px 18px;
+    font-size: xx-large;
+}
+
+.box_redes_sociales{
+    display: flex;
+    flex-direction: column;
+}
+
+.logos_redes_sociales{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.redes_sociales__img{
+    display: flex;
+    margin-inline: 35px;
+    width: 85px;
+}
